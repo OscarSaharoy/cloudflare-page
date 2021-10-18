@@ -50,7 +50,7 @@ function App() {
       <div className="info">
         <p className="white"> ====================================================================================== </p>
         <p> Brought to you by CloudFlare </p>
-        <p className="magenta"> Fibre-Optic IP-Link @ 100Gbit/sec </p>
+        <p className="magenta"> Fibre-Optic IP-Link @ 100 Gbit/sec </p>
         <p className="white"> ======================| Your System Operator is: <span className="cyan">Oscar Saharoy</span> |====================== </p>
         <p className="yellow"> Served from 100s of Data Centres Worldwide </p>
         <p className="orange"> Dialup Time: 00:00 - 23:59 </p>
@@ -114,7 +114,7 @@ function App() {
 <span className="hidden">.</span>      _=/***%**%$******&&&*****/  <span className="lightorange">/**O8**\   </span> <br></br>     
 <span className="hidden">.</span>    */****FF@;***//L(///[/##P'   <span className="lightorange"> \@##****#\ </span> <br></br>    
 <span className="hidden">.</span>   /*****--==_______________     <span className="lightorange"> ____==-**/ </span> <br></br>   
-<span className="hidden">.</span>  *\___@#/@#idobackendtoodw/@\  <span className="lightorange">/@[***86__/  </span>
+<span className="hidden">.</span>   *Q__@#/@#idobackendtoodw/@\  <span className="lightorange">/@[***86LO'  </span>
 
      </p>
       <p className="thankyou"> Thank You for Visiting! </p>
