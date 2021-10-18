@@ -26,6 +26,20 @@
     grid-template-columns: 100%;
 }
 
+@media only screen and (max-width: 32rem) {
+    
+    :root{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 24rem) {
+    
+    :root{
+        font-size: 0.7em;
+    }
+}
+
 @media only screen and (min-width: 92rem) {
     
     .title-container {

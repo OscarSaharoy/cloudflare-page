@@ -54,7 +54,6 @@ function App() {
         <p className="white"> ======================| Your System Operator is: <span className="cyan">Oscar Saharoy</span> |====================== </p>
         <p className="yellow"> Served from 100s of Data Centres Worldwide </p>
         <p className="orange"> Dialup Time: 00:00 - 23:59 </p>
-        <p className="red"> www: </p>
         <p className="white"> ====================================================================================== </p>
       </div>
 
