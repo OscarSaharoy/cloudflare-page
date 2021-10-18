@@ -131,7 +131,7 @@ function getPosts() {
 
 function postPost() {
 
-    const username = 
+    // const username = 
 }
 
 export default App;
