@@ -104,6 +104,7 @@ function App() {
         
       </div>
 
+      <p className="white seperator"> ====================================================================================== </p>
 
       <p className="orange cloud">
 

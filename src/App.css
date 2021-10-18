@@ -151,6 +151,16 @@ button:focus {
     font-weight: bold;
 }
 
+.seperator {
+    margin-top: 2.7rem;
+    justify-self: center;
+}
+.cloud {
+    margin-top: 2.4rem;
+    justify-self: center;
+    white-space: pre;
+}
+
 .thankyou {
     margin-top: 2rem;
     justify-self: center;
@@ -158,8 +168,3 @@ button:focus {
     font-weight: bold;
 }
 
-.cloud {
-    margin-top: 4rem;
-    justify-self: center;
-    white-space: pre;
-}
