@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.App {
+    font-family: monospace;
+    background: #212;
+    color: #00ff00;
+    min-height: 100vh;
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    padding: 2rem 0 5rem 0;
+}
+
+.centerer {
+    min-width: 45rem;
+    display: grid;
+    justify-content: center;   
+}
+
+.title-container {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+@media only screen and (min-width: 92rem) {
+    
+    .title-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+p.title {
+    justify-self: center;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.info {
+    margin-top: 2rem;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
+    grid-gap: 0.2rem;
+}
+
+.posts {
+    max-width: 50rem;
+    display: grid;
+    margin-top: 2rem;
+    justify-self: center;
+}
+
+textarea {
+    border: none;
+    border-radius: none;
+    padding: 0.7rem;
+    background: #324;
+    color: white;
+    margin: 1rem 0;
+}
+
+textarea:focus {
+    outline: none;
+    border: 0.2rem solid cyan;
+    padding: 0.5rem;
+}
+
+.submit-holder {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 7rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    font-family: monospace;
+    border: none;
+    border-radius: none;
+    background: #324;
+    color: white;
+    padding: 0.7rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 0.2rem solid cyan;
+    padding: 0.5rem;
+}
+
+button {
+    font-family: monospace;
+    border: none;
+    border-radius: none;
+    background: #324;
+    color: white;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+button:hover {
+    color: #aaa;
+}
+
+button:focus {
+    outline: none;
+    border: 0.2rem solid cyan;
+    padding: 0.5rem;
+}
+
+.post {
+    margin-top: 1rem;
+}
+
+.hidden {
+    color: transparent;
+}
+
+.white {
+    color: white;
+}
+
+.magenta {
+    color: magenta;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.orange {
+    color: orange;
+}
+
+.lightorange {
+    color: #ffd726;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.thankyou {
+    margin-top: 2rem;
+    justify-self: center;
+    color: cyan;
+    font-weight: bold;
+}
+
+.cloud {
+    margin-top: 4rem;
+    justify-self: center;
+    white-space: pre;
+}
