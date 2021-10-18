@@ -12,7 +12,7 @@
     display: grid;
     align-content: start;
     justify-content: center;
-    padding: 2rem 0 5rem 0;
+    padding: 2.7rem 0 5rem 0;
 }
 
 .centerer {
@@ -127,6 +127,7 @@ button:focus {
 
 .post {
     margin-top: 1rem;
+    width: 20rem;
 }
 
 .hidden {
