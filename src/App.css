@@ -27,7 +27,7 @@
 }
 
 :root {
-    font-size: min( calc( 100vw / 40 ), 1em);
+    font-size: min( calc( 100vw / 40 ), 0.9em);
 }
 
 @media only screen and (min-width: 92rem) {
@@ -49,6 +49,7 @@ p.title {
     justify-self: center;
     justify-items: center;
     grid-gap: 0.2rem;
+    white-space: nowrap;
 }
 
 .posts {
