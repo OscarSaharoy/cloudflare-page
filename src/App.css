@@ -73,8 +73,10 @@ textarea {
     border-radius: none;
     padding: 0.7rem;
     background: #324;
+    width: 20rem;
+    height: 3.2rem;
     color: white;
-    margin: 1rem 0;
+    margin: 1rem 0 0.7rem 0;
 }
 
 textarea:focus {
@@ -85,7 +87,7 @@ textarea:focus {
 
 .submit-holder {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 0.7rem;
     grid-template-columns: 1fr 7rem;
     margin-bottom: 1.5rem;
 }
@@ -127,7 +129,6 @@ button:focus {
 
 .post {
     margin-top: 1rem;
-    width: 20rem;
 }
 
 .hidden {

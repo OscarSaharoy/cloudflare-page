@@ -3,7 +3,7 @@ function Post( props ) {
 
 	return (
 		<div className="post">
-          <p> User: {props.username} </p>
+          <p className="cyan"> <span className="bold orange">User:</span> {props.username} </p>
           <p> {props.text} </p>
         </div>
     )
