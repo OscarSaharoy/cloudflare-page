@@ -129,6 +129,7 @@ button:focus {
 
 .post {
     margin-top: 1rem;
+    width: 20rem;
 }
 
 .hidden {
